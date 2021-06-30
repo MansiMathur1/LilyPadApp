@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -83,6 +82,9 @@
                                 <state key="normal" title="Calm Down">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="xD8-h6-HHZ" kind="show" id="Cyd-NV-IoO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8g-F8-a06">
                                 <rect key="frame" x="46" y="487" width="136" height="32"/>
@@ -110,26 +112,54 @@
             </objects>
             <point key="canvasLocation" x="824.63768115942037" y="65.625"/>
         </scene>
-        <!--View Controller-->
+        <!--Calm Down1 View Controller-->
         <scene sceneID="H1d-le-QlV">
             <objects>
-                <viewController id="xD8-h6-HHZ" sceneMemberID="viewController">
+                <viewController id="xD8-h6-HHZ" customClass="CalmDown1ViewController" customModule="LilyPad" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yEK-jf-Tx1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="hDU-zQ-9f9"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.70318597699999996" green="0.95195768380000001" blue="0.93129365829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="fXX-JC-uUv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qP2-k9-knR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1504" y="66"/>
         </scene>
+        <!--Calm Down2 View Controller-->
+        <scene sceneID="LJ2-81-hZH">
+            <objects>
+                <viewController id="cEY-e9-LwB" customClass="CalmDown2ViewController" customModule="LilyPad" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HUn-MI-YmV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="xYk-Mv-GAE"/>
+                        <color key="backgroundColor" red="0.70318597699999996" green="0.95195768380000001" blue="0.93129365829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uiT-fc-06e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2178" y="66"/>
+        </scene>
+        <!--Calm Down3 View Controller-->
+        <scene sceneID="iaK-Qj-gP9">
+            <objects>
+                <viewController id="vke-5L-oyo" customClass="CalmDown3ViewController" customModule="LilyPad" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="379-Bk-EmN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="gjW-Xw-Vy3"/>
+                        <color key="backgroundColor" red="0.70318597699999996" green="0.95195768380000001" blue="0.93129365829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lUx-d7-yaT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2858" y="66"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Pitch_Party_Template_Slides_-_MAKE_A_COPY_WITH_EVERYONE_S_NAMES-removebg-preview" width="666" height="375"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

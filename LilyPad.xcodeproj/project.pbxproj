@@ -14,6 +14,9 @@
 		F0AA346C268CBDCC000B577B /* LilyPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0AA346A268CBDCC000B577B /* LilyPad.xcdatamodeld */; };
 		F0AA346E268CBDD1000B577B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0AA346D268CBDD1000B577B /* Assets.xcassets */; };
 		F0AA3471268CBDD1000B577B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0AA346F268CBDD1000B577B /* LaunchScreen.storyboard */; };
+		F0AA3479268CDF3E000B577B /* CalmDown1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AA3478268CDF3E000B577B /* CalmDown1ViewController.swift */; };
+		F0AA347B268CDF90000B577B /* CalmDown2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AA347A268CDF8F000B577B /* CalmDown2ViewController.swift */; };
+		F0AA347D268CDFB6000B577B /* CalmDown3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AA347C268CDFB6000B577B /* CalmDown3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		F0AA346D268CBDD1000B577B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0AA3470268CBDD1000B577B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0AA3472268CBDD1000B577B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0AA3478268CDF3E000B577B /* CalmDown1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmDown1ViewController.swift; sourceTree = "<group>"; };
+		F0AA347A268CDF8F000B577B /* CalmDown2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmDown2ViewController.swift; sourceTree = "<group>"; };
+		F0AA347C268CDFB6000B577B /* CalmDown3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmDown3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				F0AA346F268CBDD1000B577B /* LaunchScreen.storyboard */,
 				F0AA3472268CBDD1000B577B /* Info.plist */,
 				F0AA346A268CBDCC000B577B /* LilyPad.xcdatamodeld */,
+				F0AA3478268CDF3E000B577B /* CalmDown1ViewController.swift */,
+				F0AA347A268CDF8F000B577B /* CalmDown2ViewController.swift */,
+				F0AA347C268CDFB6000B577B /* CalmDown3ViewController.swift */,
 			);
 			path = LilyPad;
 			sourceTree = "<group>";
@@ -140,9 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0AA3479268CDF3E000B577B /* CalmDown1ViewController.swift in Sources */,
+				F0AA347D268CDFB6000B577B /* CalmDown3ViewController.swift in Sources */,
 				F0AA3466268CBDCC000B577B /* ViewController.swift in Sources */,
 				F0AA3462268CBDCC000B577B /* AppDelegate.swift in Sources */,
 				F0AA3464268CBDCC000B577B /* SceneDelegate.swift in Sources */,
+				F0AA347B268CDF90000B577B /* CalmDown2ViewController.swift in Sources */,
 				F0AA346C268CBDCC000B577B /* LilyPad.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
