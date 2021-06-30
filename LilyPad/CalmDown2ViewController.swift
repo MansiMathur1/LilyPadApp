@@ -9,9 +9,13 @@ import UIKit
 
 class CalmDown2ViewController: UIViewController {
 
+    @IBOutlet weak var firstTaskLabel: UILabel!
+    var myString = String()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        firstTaskLabel.text = myString
         // Do any additional setup after loading the view.
     }
     
