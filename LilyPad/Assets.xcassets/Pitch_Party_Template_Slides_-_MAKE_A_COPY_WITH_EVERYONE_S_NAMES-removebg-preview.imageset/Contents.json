@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Pitch_Party_Template_Slides_-_MAKE_A_COPY_WITH_EVERYONE_S_NAMES-removebg-preview.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
