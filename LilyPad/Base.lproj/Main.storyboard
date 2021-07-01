@@ -218,7 +218,7 @@
                                 <rect key="frame" x="30" y="60" width="354" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Task will print here">
+                                    <fragment content="The task will print here. ">
                                         <attributes>
                                             <color key="NSColor" red="0.95195768380000001" green="0.32033489030000001" blue="0.70638735070000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="30" name="HiraginoSans-W3"/>
@@ -228,6 +228,36 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfw-S0-KNz">
+                                <rect key="frame" x="70" y="134" width="274" height="161"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Now write out the steps to complete this task. ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.95195768380000001" green="0.32033489030000001" blue="0.70638735070000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="22" name="HiraginoSans-W3"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="2" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X8S-wR-sU6">
+                                <rect key="frame" x="74" y="373" width="267" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L72-Vw-mds">
+                                <rect key="frame" x="183" y="445" width="49" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <segue destination="vke-5L-oyo" kind="show" id="l5w-4R-fXI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xYk-Mv-GAE"/>
                         <color key="backgroundColor" red="0.70318597699999996" green="0.95195768380000001" blue="0.93129365829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -244,18 +274,19 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uiT-fc-06e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2178" y="66"/>
+            <point key="canvasLocation" x="2175.36231884058" y="65.625"/>
         </scene>
         <!--Calm Down3 View Controller-->
         <scene sceneID="iaK-Qj-gP9">
             <objects>
                 <viewController id="vke-5L-oyo" customClass="CalmDown3ViewController" customModule="LilyPad" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="379-Bk-EmN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="gjW-Xw-Vy3"/>
                         <color key="backgroundColor" red="0.70318597699999996" green="0.95195768380000001" blue="0.93129365829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="sQi-cL-aM2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lUx-d7-yaT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
