@@ -19,7 +19,7 @@ class CalmDown1ViewController: UIViewController {
         
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var secondController = segue.destination as! CalmDown2ViewController
+        let secondController = segue.destination as! CalmDown2ViewController
         secondController.myString = firstTaskEntered.text!
     }
     

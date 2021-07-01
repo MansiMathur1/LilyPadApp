@@ -1,24 +1,19 @@
 //
-//  CalmDown3ViewController.swift
+//  Table0ViewController.swift
 //  LilyPad
 //
-//  Created by Mansi Mathur on 6/30/21.
+//  Created by Mansi Mathur on 7/1/21.
 //
 
 import UIKit
 
-class CalmDown3ViewController: UIViewController {
+class Table0ViewController: UIViewController {
 
-    
-    
-    @IBOutlet weak var stepsPrint: UILabel!
-    var myString1 = String()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named:"lilyPadBackground")!)
-        stepsPrint.text = myString1
+
         // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named:"lilyPadBackground")!)
     }
     
 

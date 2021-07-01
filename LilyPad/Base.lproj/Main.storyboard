@@ -60,10 +60,10 @@
             </objects>
             <point key="canvasLocation" x="136.23188405797103" y="64.285714285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Table0 View Controller-->
         <scene sceneID="KH7-5U-h48">
             <objects>
-                <viewController id="Fxr-aO-rR8" sceneMemberID="viewController">
+                <viewController id="Fxr-aO-rR8" customClass="Table0ViewController" customModule="LilyPad" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UEK-rb-Dna">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -255,7 +255,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Submit"/>
                                 <connections>
-                                    <segue destination="vke-5L-oyo" kind="show" id="l5w-4R-fXI"/>
+                                    <action selector="submitButton:" destination="cEY-e9-LwB" eventType="touchUpInside" id="CO6-10-JuB"/>
+                                    <segue destination="vke-5L-oyo" kind="show" identifier="segue2" id="saz-zY-aRf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -270,6 +271,7 @@
                     <navigationItem key="navigationItem" id="t4Q-1i-W0O"/>
                     <connections>
                         <outlet property="firstTaskLabel" destination="vAq-fi-kWR" id="JD4-Q7-auq"/>
+                        <outlet property="typeSteps" destination="X8S-wR-sU6" id="UXo-kR-4Ro"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uiT-fc-06e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -283,16 +285,48 @@
                     <view key="view" contentMode="scaleToFill" id="379-Bk-EmN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKV-ev-LNm">
+                                <rect key="frame" x="30" y="174" width="355" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Steps will print out here">
+                                        <attributes>
+                                            <color key="NSColor" red="0.95195768380000001" green="0.32033489030000001" blue="0.70638735070000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="30" name="HiraginoSans-W3"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZb-D1-a5h">
+                                <rect key="frame" x="157" y="713" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Take me home"/>
+                                <connections>
+                                    <segue destination="Fxr-aO-rR8" kind="show" id="eQH-NX-HCz"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="gjW-Xw-Vy3"/>
                         <color key="backgroundColor" red="0.70318597699999996" green="0.95195768380000001" blue="0.93129365829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="sQi-cL-aM2"/>
+                    <connections>
+                        <outlet property="stepsPrint" destination="hKV-ev-LNm" id="UOh-se-OKx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lUx-d7-yaT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2858" y="66"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="eQH-NX-HCz"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Pitch_Party_Template_Slides_-_MAKE_A_COPY_WITH_EVERYONE_S_NAMES-removebg-preview" width="666" height="375"/>
     </resources>
