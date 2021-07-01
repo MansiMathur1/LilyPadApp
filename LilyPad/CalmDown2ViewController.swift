@@ -14,7 +14,7 @@ class CalmDown2ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named:"lilyPadBackground")!)
         firstTaskLabel.text = myString
         // Do any additional setup after loading the view.
     }

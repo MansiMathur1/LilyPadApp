@@ -78,30 +78,41 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pitch_Party_Template_Slides_-_MAKE_A_COPY_WITH_EVERYONE_S_NAMES-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="PuG-sZ-jrT">
                                 <rect key="frame" x="-46" y="120" width="666" height="217"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="PuG-sZ-jrT" secondAttribute="height" multiplier="666:217" id="Lxa-pt-6Rw"/>
-                                    <constraint firstAttribute="width" constant="1150.6700000000001" id="hl5-Lm-vY2"/>
                                     <constraint firstAttribute="height" constant="217" id="lv9-qw-83P"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Pitch_Party_Template_Slides_-_MAKE_A_COPY_WITH_EVERYONE_S_NAMES-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="FwH-wW-cCE">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pitch_Party_Template_Slides_-_MAKE_A_COPY_WITH_EVERYONE_S_NAMES-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="FwH-wW-cCE">
                                 <rect key="frame" x="-102" y="310" width="426" height="222"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8g-F8-a06">
-                                <rect key="frame" x="43" y="395" width="136" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8g-F8-a06">
+                                <rect key="frame" x="43" y="395" width="136" height="32"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="20"/>
                                 <state key="normal" title="Enter Streaks">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pitch_Party_Template_Slides_-_MAKE_A_COPY_WITH_EVERYONE_S_NAMES-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="dky-aj-Acs">
+                                <rect key="frame" x="-46" y="485" width="666" height="229"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="229" id="mFy-Gx-Wga"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyz-KX-l4a">
+                                <rect key="frame" x="235" y="568" width="104" height="32"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="20"/>
+                                <state key="normal" title="Inspiration">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q64-sd-x1v">
-                                <rect key="frame" x="209" y="188" width="156" height="53"/>
+                                <rect key="frame" x="216" y="196" width="142" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Organize My Life">
                                             <attributes>
-                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="20" name="HiraginoSans-W3"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.5" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -112,35 +123,21 @@
                                     <segue destination="xD8-h6-HHZ" kind="show" id="Cyd-NV-IoO"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Pitch_Party_Template_Slides_-_MAKE_A_COPY_WITH_EVERYONE_S_NAMES-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="dky-aj-Acs">
-                                <rect key="frame" x="-46" y="485" width="666" height="229"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyz-KX-l4a">
-                                <rect key="frame" x="235" y="568" width="104" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="20"/>
-                                <state key="normal" title="Inspiration">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ADt-Zo-fay"/>
                         <color key="backgroundColor" red="0.70318597699999996" green="0.95195768380000001" blue="0.93129365829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="dky-aj-Acs" firstAttribute="top" secondItem="L8g-F8-a06" secondAttribute="bottom" constant="58" id="7UJ-dF-X3g"/>
                             <constraint firstItem="PuG-sZ-jrT" firstAttribute="top" secondItem="Mbq-2u-WTI" secondAttribute="bottom" constant="30" id="9e1-EZ-Aid"/>
-                            <constraint firstItem="FwH-wW-cCE" firstAttribute="height" secondItem="PuG-sZ-jrT" secondAttribute="height" id="ABf-eT-fr1"/>
-                            <constraint firstItem="FwH-wW-cCE" firstAttribute="width" secondItem="PuG-sZ-jrT" secondAttribute="width" id="Aq1-Dv-kql"/>
-                            <constraint firstItem="FwH-wW-cCE" firstAttribute="height" secondItem="PuG-sZ-jrT" secondAttribute="height" id="C2I-yC-tFK"/>
                             <constraint firstItem="dky-aj-Acs" firstAttribute="leading" secondItem="PuG-sZ-jrT" secondAttribute="leading" id="I2d-wD-lsM"/>
                             <constraint firstItem="PuG-sZ-jrT" firstAttribute="centerX" secondItem="UEK-rb-Dna" secondAttribute="centerX" constant="80" id="OKw-89-54q"/>
-                            <constraint firstItem="dky-aj-Acs" firstAttribute="trailing" secondItem="PuG-sZ-jrT" secondAttribute="trailing" id="Wik-Ak-zGm"/>
-                            <constraint firstItem="dky-aj-Acs" firstAttribute="height" secondItem="PuG-sZ-jrT" secondAttribute="height" id="bEI-po-Qg9"/>
-                            <constraint firstItem="FwH-wW-cCE" firstAttribute="leading" secondItem="PuG-sZ-jrT" secondAttribute="leading" id="ffi-iQ-RBd"/>
-                            <constraint firstItem="dky-aj-Acs" firstAttribute="height" secondItem="PuG-sZ-jrT" secondAttribute="height" id="joy-C5-oh4"/>
+                            <constraint firstItem="ADt-Zo-fay" firstAttribute="bottom" secondItem="dky-aj-Acs" secondAttribute="bottom" constant="94" id="QDe-BV-l47"/>
+                            <constraint firstItem="dky-aj-Acs" firstAttribute="top" secondItem="dyz-KX-l4a" secondAttribute="bottom" constant="-115" id="XNc-Un-yFV"/>
+                            <constraint firstItem="ADt-Zo-fay" firstAttribute="trailing" secondItem="dyz-KX-l4a" secondAttribute="trailing" constant="75" id="ZJP-kc-inf"/>
                             <constraint firstItem="Mbq-2u-WTI" firstAttribute="leading" secondItem="ADt-Zo-fay" secondAttribute="leading" constant="30" id="naX-3f-pN3"/>
                             <constraint firstItem="ADt-Zo-fay" firstAttribute="trailing" secondItem="Mbq-2u-WTI" secondAttribute="trailing" constant="30" id="nhQ-HX-bOj"/>
+                            <constraint firstItem="dky-aj-Acs" firstAttribute="centerX" secondItem="dyz-KX-l4a" secondAttribute="centerX" id="vD6-rl-i6e"/>
                             <constraint firstItem="Mbq-2u-WTI" firstAttribute="top" secondItem="ADt-Zo-fay" secondAttribute="top" constant="60" id="yEH-dg-oN0"/>
-                            <constraint firstItem="dky-aj-Acs" firstAttribute="width" secondItem="PuG-sZ-jrT" secondAttribute="width" id="zpG-XE-f9n"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Uw7-Hk-tSd"/>

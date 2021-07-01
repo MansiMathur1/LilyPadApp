@@ -25,7 +25,7 @@ class CalmDown1ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named:"lilyPadBackground2")!)
         // Do any additional setup after loading the view.
     }
     
