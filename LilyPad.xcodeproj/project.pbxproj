@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A89FAD19268E15AE00E19B83 /* Breathe2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FAD18268E15AE00E19B83 /* Breathe2ViewController.swift */; };
+		A89FAD1B268E15C600E19B83 /* Breathe1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FAD1A268E15C600E19B83 /* Breathe1.swift */; };
+		A89FAD1D268E15D500E19B83 /* Breathe3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FAD1C268E15D500E19B83 /* Breathe3.swift */; };
 		F0AA3462268CBDCC000B577B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AA3461268CBDCC000B577B /* AppDelegate.swift */; };
 		F0AA3464268CBDCC000B577B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AA3463268CBDCC000B577B /* SceneDelegate.swift */; };
 		F0AA3466268CBDCC000B577B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AA3465268CBDCC000B577B /* ViewController.swift */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A89FAD18268E15AE00E19B83 /* Breathe2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breathe2ViewController.swift; sourceTree = "<group>"; };
+		A89FAD1A268E15C600E19B83 /* Breathe1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breathe1.swift; sourceTree = "<group>"; };
+		A89FAD1C268E15D500E19B83 /* Breathe3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breathe3.swift; sourceTree = "<group>"; };
 		F0AA345E268CBDCC000B577B /* LilyPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LilyPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0AA3461268CBDCC000B577B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0AA3463268CBDCC000B577B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +84,9 @@
 				F0AA347A268CDF8F000B577B /* CalmDown2ViewController.swift */,
 				F0AA347C268CDFB6000B577B /* CalmDown3ViewController.swift */,
 				F0AA347E268E0830000B577B /* Table0ViewController.swift */,
+				A89FAD1A268E15C600E19B83 /* Breathe1.swift */,
+				A89FAD18268E15AE00E19B83 /* Breathe2ViewController.swift */,
+				A89FAD1C268E15D500E19B83 /* Breathe3.swift */,
 			);
 			path = LilyPad;
 			sourceTree = "<group>";
@@ -155,6 +164,9 @@
 				F0AA3479268CDF3E000B577B /* CalmDown1ViewController.swift in Sources */,
 				F0AA347D268CDFB6000B577B /* CalmDown3ViewController.swift in Sources */,
 				F0AA3466268CBDCC000B577B /* ViewController.swift in Sources */,
+				A89FAD1D268E15D500E19B83 /* Breathe3.swift in Sources */,
+				A89FAD1B268E15C600E19B83 /* Breathe1.swift in Sources */,
+				A89FAD19268E15AE00E19B83 /* Breathe2ViewController.swift in Sources */,
 				F0AA3462268CBDCC000B577B /* AppDelegate.swift in Sources */,
 				F0AA347F268E0830000B577B /* Table0ViewController.swift in Sources */,
 				F0AA3464268CBDCC000B577B /* SceneDelegate.swift in Sources */,
